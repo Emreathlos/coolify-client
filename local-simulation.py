@@ -6,6 +6,10 @@ Run this in a separate terminal to test your Flask client locally
 
 from flask import Flask, jsonify
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
